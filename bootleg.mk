@@ -28,5 +28,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V8.5.4.0.NCFMIED release-keys" \
     DEVICE_MAINTAINERS="merothh"
 
+# Set BTLG Build to Shishufied
+BOOTLEG_BUILD_TYPE := Shishufied
+
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V8.5.4.0.NCFMIED:user/release-keys"
