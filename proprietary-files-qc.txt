@@ -396,10 +396,6 @@ lib64/vendor.qti.hardware.iop@2.0.so|858e8bec809f800eb7ad1df8b743cdbde8c4296b
 lib64/vendor.qti.hardware.perf@1.0.so|52e3b9d8970ae0109902a9e14fed69ea311f0afc
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|ede42a372a8f22e67b20b090c8a6f19562da2131
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|ca24037c85033a1943bfa15ed34eca5c2bb62b9f
-vendor/etc/perf/commonresourceconfigs.xml|9a55f58ff268e4f51077e23adfc78a0b758a0da9
-vendor/etc/perf/perfboostsconfig.xml|eb3e5879c737bfed20ae3612938316dd82850b59
-vendor/etc/perf/targetconfig.xml|5c81c22e06c6a0fc77e4f39efb4f7034f7bf5a3f
-vendor/etc/perf/targetresourceconfigs.xml|ab576578f1bcb02115b8a30d4a109d660d2e6fb6
 vendor/bin/msm_irqbalance|b92c68241241cc5d2c5086d4be3d57d96ba8f23c
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc|b50182aadab2e31409df61c523d0fb914a394e43
@@ -423,6 +419,12 @@ vendor/lib64/libqti-util.so|f5c14ff866524a8326846823875005a67010089e
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|4a8605daa067d6b618a1f926308471fd681795e4
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|42dd3c577522ad389a2579875eed625282b05356
 vendor/lib64/vendor.qti.hardware.perf@1.0.so|a3179df9485bb9623a1c64f3cdf12a11a0fba2cf
+
+#Perf Configs - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+vendor/etc/perf/commonresourceconfigs.xml|20280e40ca43784316e96be09fe2d2296d79e972
+vendor/etc/perf/perfboostsconfig.xml|69c9a14f77b04b792c1e71d77b752a089e94531a
+vendor/etc/perf/targetconfig.xml|1e240759319696ae5920a35d675317b7a4456685
+vendor/etc/perf/targetresourceconfigs.xml|f905a4f59091686d732d7121a9066e79d395056d
 
 # Peripheral manager - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 vendor/bin/pm-proxy|56e9bdaa39270aa4456c9995a8a9e4618ba616a6
